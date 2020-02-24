@@ -1,0 +1,89 @@
+.first-page-table {
+  margin: 1rem 3rem 0.5rem 3rem;
+  & table {
+    width: 100%;
+    border-collapse: collapse;
+
+    & th {
+      text-align: left;
+      background: #e6e6e6;
+      padding: 0.6rem 7px;
+      font-size: 0.8rem;
+    }
+
+    & tr {
+      border-bottom: 3.5px solid #F4F7F6;
+      border-top: 7px solid #F4F7F6;
+      font-size: 0.8rem;
+    }
+
+    & td {
+      padding: 1.3rem 0 1.3rem 7px;
+      background-color: #fff;
+    }
+
+    & input {
+        width: 15px;
+        height: 15px;
+        margin-right: 20px;
+        position: relative;
+        top: 3px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 1.4rem;
+    }
+
+    & .details {
+        width: 230px;
+        font-size: 0.7rem;
+    }
+
+    & .colors {
+        padding: 0.6rem 0.9rem;
+        background: #007BFF;
+        border-radius: 5px;
+        border: none;
+        font-size: 0.7rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    & .qty {
+        font-weight: bold;
+    }
+
+    & .print-type {
+        font-weight: bold;
+    }
+
+    & .clock span {
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: bold;
+        color: red;
+    }
+
+    & .date {
+        margin-bottom: 8px;
+    }
+
+    & .time-left {
+        color: #aca4a4;
+        margin-right: 10px;
+    }
+
+    & .time {
+        color: green;
+        font-weight: bold;
+    }
+
+    & .prod-status {
+        color: green;
+        font-weight: bold;
+    }
+  }
+}

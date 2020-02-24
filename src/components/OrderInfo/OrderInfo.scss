@@ -1,0 +1,54 @@
+.orderInfo {
+    margin: 0 3rem 2rem 3rem;
+    background: #fff;
+    padding: 1rem 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .fas.fa-shopping-cart {
+        margin-right: 8px;
+        color: #968d8d;
+    }
+
+    & .fas.fa-check {
+        color: #fff;
+        background: #1E8406;
+        padding: 0.2rem;
+        font-size: 0.7rem;
+        margin-right: 5px;
+        border-radius: 50%;
+    }
+
+    & .line {
+        background: #C1C1C1;
+        height: 40px;
+        width: 1px;
+    }
+
+    & .blue-color {
+        color: #007BFF;
+        margin-top: 10px;
+    }
+
+    & select {
+        border: none;
+        font-size: 0.9rem;
+        color: #1E8406;
+        text-decoration: underline;
+        margin-left: 5px;
+    }
+
+    & .requestedBy {
+        margin-top: 7px;
+
+        & .time-left {
+            color: rgb(206, 201, 201);
+        }
+
+        & .time {
+            color: #1E8406;
+            margin-left: 12px;
+        } 
+    }
+}

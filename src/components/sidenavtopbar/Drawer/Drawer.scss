@@ -1,0 +1,58 @@
+.drawer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #007BFF;
+    // width: 35vw;
+    width: 250px;
+    z-index: 100;
+
+    & ul {
+        // width: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 9rem;
+
+        & li a {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem 0 1rem 0.9rem;
+
+            &:hover {
+                background: #CEE6FF;
+            }
+
+            & .icon {
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    & .line {
+        width: 94%;
+        height: 1px;
+        background: #0063cc;
+        margin: 0 0 0 0.5rem;
+        // opacity: 0;
+    }
+}
+
+.hamburger {
+    position: fixed;
+    top: 1.3rem;
+    left: 0.9rem;
+    // margin: 1rem 0 3rem 0;
+}
+
+.drawer-settings a {
+    position: absolute;
+    bottom: 1rem;
+    padding-left: 0.9rem;
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+.table-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 3rem 1rem 3rem;
+    // padding: 0.5rem 0;
+    font-size: 0.9rem;
+
+    & .left-table-top {
+        display: flex;
+        align-items: center;
+    }
+
+    & .pads {
+        padding-bottom: 1rem;
+    }
+
+    & ul {
+        display: flex;
+        align-items: center;
+    }
+
+    & .lined {
+        display: flex;
+        align-items: center;
+        padding-right: 1.5rem;
+    }
+
+    .underlined {
+        border-bottom: 1px solid blue;
+    }
+
+    & .line {
+        background: black;
+        height: 15px;
+        width: 1px;
+        margin: 0 1.5rem 0 0;
+        display: inline-block;
+    }
+
+    & .notif {
+        background: red;
+        padding: 0.2rem;
+        font-size: 0.6rem;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 0.3rem;
+    }
+
+    & .prod-number {
+        color: rgb(109, 107, 107);
+        margin-left: 0.3rem;
+        font-size: 0.6rem;
+    }
+
+    .print-work {
+        border: 1px solid #000;
+        padding: 0.4rem 0.7rem;
+        border-radius: 5px;
+        font-size: 0.75rem;
+        cursor: pointer;
+    }
+
+    .complete select {
+        border: none;
+        background: none;
+        margin-left: 1.5rem;
+    }
+
+    .save {
+        padding: 0.4rem 2rem;
+        border-radius: 5px;
+        background: #5e5c5c;
+        color: #fff;
+        font-size: 0.75rem;
+        margin-left: 1.5rem;
+        cursor: pointer;
+    }
+}
